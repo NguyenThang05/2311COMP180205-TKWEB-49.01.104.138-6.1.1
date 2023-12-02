@@ -1,0 +1,194 @@
+#fish_tank img
+{
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    width: 1500px;
+    height: 800px;
+    
+   
+}
+#shark
+{
+    left: 200px;top:450px;
+      position:absolute;
+      animation-name: Shark;
+      animation-duration: 7s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      margin-top: 175px;
+  }
+@keyframes Shark
+{
+    0%{
+      transform: translateX(0) scaleX(1);
+    }
+    50%{
+      transform: translateX(960px) scaleX(1);
+    }
+    52%{
+      transform: translateX(960px) scaleX(-1);
+    }
+    100%{
+      transform: translateX(0) scaleX(-1);
+    }  
+}
+#turtle
+{
+    left: 200px;top:300px;
+    position:absolute;
+    animation-name: turtle;
+    animation-duration: 14s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    margin-top: 150px;
+}
+@keyframes turtle
+{
+    0%{
+      transform: translateX(0) scaleX(1);
+    }
+    50%{
+      transform: translateX(960px) scaleX(1);
+    }
+    52%{
+      transform: translateX(960px) scaleX(-1);
+    }
+    100%{
+      transform: translateX(0) scaleX(-1);
+    }
+} 
+#diver1{
+    left: 100px;top:300px;
+    position:absolute;
+    animation-name: diver1;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    margin-top:70px;
+  }
+  @keyframes diver1
+{
+    0%{
+      transform: translateX(0) scaleX(1);
+    }
+    50%{
+      transform: translateX(1000px) scaleX(1);
+    }
+    51%{
+      top: 230px;
+      transform: translateX(1000px) scaleX(-1);
+    }
+    100%{
+      transform: translateX(0) scaleX(-1);
+    }
+}
+#diver2{
+    left: 200px;top:300px;
+    position:absolute;
+    animation-name: diver2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    margin-top:112px;
+  }
+@keyframes diver2
+{
+    0%{
+      transform: translateX(0) scaleX(1);
+    }
+    50%{
+      transform: translateX(1000px) scaleX(1);
+    }
+    51%{
+      top: 100px;
+      transform: translateX(1000px) scaleX(-1);
+    }
+    100%{
+      transform: translateX(0) scaleX(-1);
+    }
+}
+#diver3
+{
+    left: 200px;top:300px;
+    position:absolute;
+    animation-name: diver3;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    margin-top:120px;
+}
+  @keyframes diver3
+{
+    0%{
+      transform: translateX(0) scaleX(1);
+    }
+    50%{
+      transform: translateX(1000px) scaleX(1);
+    }
+    51%{
+      transform: translateX(1000px) scaleX(-1);
+    }
+    100%{
+      transform: translateX(0) scaleX(-1);
+    }
+  
+}
+#goldFishSchool
+{
+    left: 100px;top:150px;
+    position:absolute;
+    animation-name: goldFishSchool;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+  @keyframes goldFishSchool
+{
+    0%{
+      transform: translateX(0) scaleX(1);
+    }
+    50%{
+      transform: translateX(960px) scaleX(1);
+    }
+    51%{
+      transform: translateX(960px) scaleX(-1);
+    }
+    100%{
+      transform: translateX(0) scaleX(-1);
+    }
+}  
+#faintSchool
+{
+    left: 300px;top:600px;
+    margin-left: 65px;
+    position:absolute;
+    animation-name: faintSchool;
+    animation-duration: 9.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+}
+@keyframes faintSchool
+{
+    0%{
+      transform: translateX(0) scaleX(1);
+    }
+    50%{
+      transform: translateX(1000px) scaleX(1);
+    }
+    51%{
+      transform: translateX(1000px) scaleX(-1);
+    }
+    100%{
+      transform: translateX(0) scaleX(-1);
+    }
+}    
